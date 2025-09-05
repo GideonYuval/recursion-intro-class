@@ -33,9 +33,14 @@ namespace recursion_intro_class
             Console.WriteLine("finished f3");
         }
 
-        //stack vs heap - הסבירו
+        //- הסבירו
+        //call stack
+        //stack vs heap
+        //איזה משתנים נשמרים באיזה סוג זיכרון
+        //למה אי אפשר לגשת למשתנים מקומיים לאחר סיום הקריאה לפעולה
+        //מה קורה לעצם שאין לו הפניות 
 
-        //מה יקרה אם נקרא לפעולה הבאה? מה בדיוק יקרה
+        //מה יקרה אם נקרא לפעולה הבאה? 
         static void overflow()
         {
             overflow();
